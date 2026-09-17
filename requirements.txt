@@ -1,0 +1,7 @@
+pyspark
+pandas<3
+scikit-learn
+statsmodels
+matplotlib
+jupyterlab
+pytest

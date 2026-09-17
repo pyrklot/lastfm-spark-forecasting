@@ -1,0 +1,17 @@
+data/*
+!data/.gitkeep
+
+output/*
+!output/.gitkeep
+!output/exercise2.tsv
+!output/exercise3_forecast.tsv
+
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+
+.ipynb_checkpoints/
+
+notebooks/*.ipynb
