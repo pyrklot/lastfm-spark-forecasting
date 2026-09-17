@@ -13,17 +13,18 @@ The solution is implemented with PySpark and Python and runs inside Docker for a
 ├── Dockerfile
 ├── requirements.txt
 ├── data/
-├── notebooks/
-    ├──exercise2.ipynb
-    └──exercise3.ipynb
+│   └── .gitkeep
 ├── output/
+│   ├── .gitkeep
+│   ├── exercise2.tsv
+│   └── exercise3_forecast.tsv
 ├── src/
-│   ├── sessions.py
 │   ├── exercise2.py
-│   └── exercise3.py
+│   ├── exercise3.py
+│   ├── main.py
+│   └── sessions.py
 └── tests/
-    └── test_sessions.py
-   
+    └── test_sessions.py   
     
 
 ## Dataset
